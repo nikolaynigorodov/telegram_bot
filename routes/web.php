@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\TelegramController;
 use App\Http\Controllers\TelegramWebHookController;
 use App\Http\Controllers\TrelloController;
 use Illuminate\Support\Facades\Route;
