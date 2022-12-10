@@ -37,24 +37,24 @@ class TelegramApi
     {
         $webhook = $this->botsManager->bot()->commandsHandler(true);
 
-        $messages = $webhook->getMessage();
+        $data = $webhook->getMessage();
 
-        $command = explode("@", $messages->text);
+        $command = explode("@", $data->text);
 
         if($command[0] == '/start') {
             $bot = $this->botsManager->bot();
             $bot->sendMessage([
                 'chat_id' => env('TELEGRAM_CHAT_ID'),
-                'text' => self::TEXT_MESSAGE . ", " .$this->service->saveAndReturnName($messages)
+                'text' => self::TEXT_MESSAGE . ", " .$this->service->saveAndReturnName($data)
             ]);
         } elseif (isset($command[0]) && isset($command[1]) && $command[0] == '/trello') {
             $bot = $this->botsManager->bot();
-            $text = $this->trelloApi->getUserTrello($command[1], $messages->from->id);
+            $text = $this->trelloApi->getUserTrello($command[1], $data->from->id);
             $bot->sendMessage([
                 'chat_id' => env('TELEGRAM_CHAT_ID'),
                 'text' => $text
             ]);
-        } elseif ($messages->text == "Report") {
+        } elseif ($data->text == "Report") {
             $bot = $this->botsManager->bot();
             $text = $this->service->getAllInformation();
             $bot->sendMessage([
