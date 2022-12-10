@@ -35,7 +35,7 @@ class TrelloServices
 
                 $text = "Your account $data->fullName has been successfully linked to telegram";
             } else {
-                $text = "Your data is not on the server";
+                $text = "Your data is not on the server, you did not take the /start command";
             }
         }
 
