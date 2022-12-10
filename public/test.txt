@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+Accept:                    text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding:           gzip, deflate
+Accept-Language:           ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,uk;q=0.6
+Cache-Control:             max-age=0
+Connection:                keep-alive
+Cookie:                    XSRF-TOKEN=eyJpdiI6Iks1UWx1RlBzUkFqbk91dHgzRlR1TGc9PSIsInZhbHVlIjoieGdSbEtKdjYrUHpQTWM4RHVZMzREdUlSTS8yMWc4NEZXVFl2UEFLcjgwdUltMHFuRkl5ZE05a3E2N0JJNU8wNnpxRitzMHVrOWppZjJ1NFgwTDF0NzI4NGZ1aWp6TmsvRTN1RS82OVJ4NDhLTFQrOFNveWNra014WGpDanpHeCsiLCJtYWMiOiIyYzAyN2RiNzA3NGViNDM4NGE1NGRiZTYxYWEzMGE2OWQxMDdlYjhlNjVlNTA4ZGQ2NDg4ZGFhMzVlNGEyMGUzIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IkN5R3V3NThEVnAxSmtqdEp5NTNlSUE9PSIsInZhbHVlIjoiUG9EczRVRlc4dEdQREtLSXdETVpjSWxtSkhMWWdBSEI1dUlPNmt6YWlDbDBIZkpCRkxNdVVvcUVYL2Zxd3NzbGx1V1hoL1N5T0pGN0hpRTU1Z1laQzlhdHlqc2tYMW02dHV4ZENqTVJHUlYzS0hiWkd3Ny9TdnJ3N2FDSlAvUUQiLCJtYWMiOiJkY2M0YTc5NDA4ZjU0ZDQ3MWMwMjE3ZTQwMDBmODY5MWI5ZjkxYjVkN2Q2MjJjM2FhMGMxNWRkYjNmMmJlYWExIiwidGFnIjoiIn0%3D
+Host:                      telegram-duck.loc
+Sec-Gpc:                   1
+Upgrade-Insecure-Requests: 1
+User-Agent:                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Cookie: XSRF-TOKEN=uNzKyX3VeE0TC1Gb18ThqjgybsCa7zG1W1FHhUJR; laravel_session=5a2TGdfAMB0jvUd9kjhcM6OetdkoFpgikKebbLFW
+
