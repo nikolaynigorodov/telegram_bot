@@ -38,7 +38,7 @@ class TrelloApi
         }
     }
 
-    public function cardMove($json): string
+    public function card($json): string
     {
         $data = json_decode($json, true);
 

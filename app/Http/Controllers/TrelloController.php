@@ -19,7 +19,7 @@ class TrelloController extends Controller
 
     public function __invoke(Request $request)
     {
-        $text = $this->trelloApi->cardMove($request->getContent());
+        $text = $this->trelloApi->card($request->getContent());
 
         if(!empty($text)) {
             $this->telegramApi->sendFromTrelloDesc($text);
