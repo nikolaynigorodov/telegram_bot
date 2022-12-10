@@ -10,7 +10,7 @@ class TrelloCommand extends Command
 {
     protected $name = 'trello';
 
-    protected $description = 'User integration with Trello /trello@USERNAME';
+    protected $description = 'User integration with Trello /trello@USERNAME without spaces';
 
     public function handle()
     {
